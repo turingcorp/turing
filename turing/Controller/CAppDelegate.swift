@@ -20,7 +20,7 @@ class CAppDelegate:NSObject, NSApplicationDelegate
         window.backgroundColor = NSColor.whiteColor()
         window.makeKeyAndOrderFront(nil)
         
-        let controller:NSViewController = NSViewController()
+        let controller:CEditor = CEditor()
 
         window.contentViewController = controller
         self.window = window

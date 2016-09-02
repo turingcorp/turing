@@ -11,6 +11,7 @@
 		DACBB4AB1D7A0855005D2F36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4A91D7A0855005D2F36 /* MainMenu.xib */; };
 		DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4AC1D7A0E36005D2F36 /* main.swift */; };
 		DACBB4AF1D7A20BC005D2F36 /* CEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */; };
+		DACBB4B11D7A20EC005D2F36 /* VEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4B01D7A20EC005D2F36 /* VEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		DACBB4A91D7A0855005D2F36 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		DACBB4AC1D7A0E36005D2F36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEditor.swift; sourceTree = "<group>"; };
+		DACBB4B01D7A20EC005D2F36 /* VEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,8 +76,8 @@
 		DACBB4A21D7A0855005D2F36 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */,
 				DACBB4AC1D7A0E36005D2F36 /* main.swift */,
+				DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */,
 				DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */,
 			);
 			path = Controller;
@@ -105,6 +107,7 @@
 		DACBB4A71D7A0855005D2F36 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DACBB4B01D7A20EC005D2F36 /* VEditor.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */,
+				DACBB4B11D7A20EC005D2F36 /* VEditor.swift in Sources */,
 				DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */,
 				DACBB4AF1D7A20BC005D2F36 /* CEditor.swift in Sources */,
 			);

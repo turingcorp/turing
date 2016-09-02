@@ -1,9 +1,13 @@
-//
-//  CEditor.swift
-//  turing
-//
-//  Created by zero on 9/2/16.
-//  Copyright © 2016 iturbide. All rights reserved.
-//
+import Cocoa
 
-import Foundation
+class CEditor:NSViewController
+{
+    weak var viewEditor:VEditor!
+    
+    override func loadView()
+    {
+        let viewEditor:VEditor = VEditor()
+        self.viewEditor = viewEditor
+        view = viewEditor
+    }
+}
