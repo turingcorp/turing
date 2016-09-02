@@ -10,6 +10,7 @@
 		DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */; };
 		DACBB4AB1D7A0855005D2F36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4A91D7A0855005D2F36 /* MainMenu.xib */; };
 		DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4AC1D7A0E36005D2F36 /* main.swift */; };
+		DACBB4AF1D7A20BC005D2F36 /* CEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
 		DACBB4A91D7A0855005D2F36 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 		DACBB4AC1D7A0E36005D2F36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CEditor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			children = (
 				DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */,
 				DACBB4AC1D7A0E36005D2F36 /* main.swift */,
+				DACBB4AE1D7A20BC005D2F36 /* CEditor.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 			files = (
 				DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */,
 				DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */,
+				DACBB4AF1D7A20BC005D2F36 /* CEditor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
