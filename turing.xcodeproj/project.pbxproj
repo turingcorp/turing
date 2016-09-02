@@ -7,17 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DACBB4921D7A05E1005D2F36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4911D7A05E1005D2F36 /* AppDelegate.swift */; };
-		DACBB4941D7A05E1005D2F36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4931D7A05E1005D2F36 /* Assets.xcassets */; };
-		DACBB4971D7A05E1005D2F36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4951D7A05E1005D2F36 /* MainMenu.xib */; };
+		DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */; };
+		DACBB4AB1D7A0855005D2F36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4A91D7A0855005D2F36 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DACBB48E1D7A05E1005D2F36 /* turing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = turing.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DACBB4911D7A05E1005D2F36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DACBB4931D7A05E1005D2F36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DACBB4981D7A05E1005D2F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DACBB4A01D7A063D005D2F36 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
+		DACBB4A91D7A0855005D2F36 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,12 +48,67 @@
 		DACBB4901D7A05E1005D2F36 /* turing */ = {
 			isa = PBXGroup;
 			children = (
-				DACBB4911D7A05E1005D2F36 /* AppDelegate.swift */,
-				DACBB4931D7A05E1005D2F36 /* Assets.xcassets */,
-				DACBB4951D7A05E1005D2F36 /* MainMenu.xib */,
+				DACBB4A11D7A0855005D2F36 /* Assets */,
+				DACBB4A21D7A0855005D2F36 /* Controller */,
+				DACBB4A41D7A0855005D2F36 /* Firebase */,
+				DACBB4A51D7A0855005D2F36 /* Model */,
+				DACBB4A61D7A0855005D2F36 /* Resources */,
+				DACBB4A71D7A0855005D2F36 /* View */,
+				DACBB4A81D7A0855005D2F36 /* XIB */,
 				DACBB4981D7A05E1005D2F36 /* Info.plist */,
 			);
 			path = turing;
+			sourceTree = "<group>";
+		};
+		DACBB4A11D7A0855005D2F36 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DACBB4A21D7A0855005D2F36 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DACBB4A41D7A0855005D2F36 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		DACBB4A51D7A0855005D2F36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DACBB4A61D7A0855005D2F36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DACBB4A71D7A0855005D2F36 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DACBB4A81D7A0855005D2F36 /* XIB */ = {
+			isa = PBXGroup;
+			children = (
+				DACBB4A91D7A0855005D2F36 /* MainMenu.xib */,
+			);
+			path = XIB;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -115,8 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACBB4941D7A05E1005D2F36 /* Assets.xcassets in Resources */,
-				DACBB4971D7A05E1005D2F36 /* MainMenu.xib in Resources */,
+				DACBB4AB1D7A0855005D2F36 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -127,22 +179,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DACBB4921D7A05E1005D2F36 /* AppDelegate.swift in Sources */,
+				DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		DACBB4951D7A05E1005D2F36 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DACBB4A01D7A063D005D2F36 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		DACBB4991D7A05E1005D2F36 /* Debug */ = {
@@ -270,6 +311,7 @@
 				DACBB49D1D7A05E1005D2F36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
