@@ -12,10 +12,10 @@ class CAppDelegate:NSObject, NSApplicationDelegate
         statusBarItem.title = "Test"
         
         let rect:NSRect = NSRect(x:0, y:0, width:800, height:800)
-        let window:NSWindow = NSWindow(contentRect:rect, styleMask:NSUnifiedTitleAndToolbarWindowMask, backing:NSBackingStoreType.Buffered, defer:false)
+        let window:NSWindow = NSWindow(contentRect:rect, styleMask:NSResizableWindowMask|NSMiniaturizableWindowMask|NSClosableWindowMask|NSTitledWindowMask|NSTexturedBackgroundWindowMask, backing:NSBackingStoreType.Buffered, defer:false)
         window.title = ""
         window.opaque = false
-        window.backgroundColor = NSColor.blackColor()
+        window.backgroundColor = NSColor.whiteColor()
         window.makeKeyAndOrderFront(nil)
         self.window = window
     }
