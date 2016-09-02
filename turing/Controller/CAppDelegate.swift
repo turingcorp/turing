@@ -15,14 +15,12 @@ class CAppDelegate:NSObject, NSApplicationDelegate
         let marginLeft:CGFloat = remainLeft / 2.0
         let rect:NSRect = NSRect(x:marginLeft, y:marginBottom, width:kInitialWidth, height:kInitialHeight)
         let windowMask:Int = NSResizableWindowMask|NSMiniaturizableWindowMask|NSClosableWindowMask|NSTitledWindowMask|NSTexturedBackgroundWindowMask
-        let window:NSWindow = NSWindow(contentRect:rect, styleMask:windowMask, backing:NSBackingStoreType.Buffered, defer:false)
-        window.opaque = false
-        window.backgroundColor = NSColor.whiteColor()
-        window.makeKeyAndOrderFront(nil)
-        
         let controller:CEditor = CEditor()
-
+        let window:NSWindow = NSWindow(contentRect:CGRectZero, styleMask:windowMask, backing:NSBackingStoreType.Buffered, defer:false)
+        window.makeKeyAndOrderFront(nil)
         window.contentViewController = controller
+        window.setFrame(rect, display:false)
+        window.backgroundColor = NSColor.whiteColor()
         self.window = window
     }
 
