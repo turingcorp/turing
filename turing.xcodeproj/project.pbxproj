@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */; };
 		DACBB4AB1D7A0855005D2F36 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACBB4A91D7A0855005D2F36 /* MainMenu.xib */; };
+		DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = DACBB4AC1D7A0E36005D2F36 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -16,6 +17,7 @@
 		DACBB4981D7A05E1005D2F36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CAppDelegate.swift; sourceTree = "<group>"; };
 		DACBB4A91D7A0855005D2F36 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		DACBB4AC1D7A0E36005D2F36 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				DACBB4A31D7A0855005D2F36 /* CAppDelegate.swift */,
+				DACBB4AC1D7A0E36005D2F36 /* main.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -179,6 +182,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACBB4AD1D7A0E36005D2F36 /* main.swift in Sources */,
 				DACBB4AA1D7A0855005D2F36 /* CAppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,7 +275,6 @@
 		DACBB49C1D7A05E1005D2F36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = turing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
@@ -283,7 +286,6 @@
 		DACBB49D1D7A05E1005D2F36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = turing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
